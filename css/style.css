@@ -1,0 +1,45 @@
+
+body {
+background: #22272c;
+}
+
+button {
+    left: 50%;
+    margin: -40px;
+    position: absolute;
+    top: 50%;
+}
+
+
+button.power {
+    background:  #2a3035;
+    border-radius: 80px;
+    box-shadow:  0px 1px 3px 0 rgba(0, 0, 0, 0.75), inset 0px 1px 2px 0 rgba(54, 66, 76, 0.75);
+    border: solid 1px #1c2024;
+  background-blend-mode: soft-light, ;
+  background-image:  linear-gradient(to bottom, #2a3035, #2a3035);
+    color: #1d2226;
+    cursor: pointer;
+    font: bold 40px/85px sans-serif;
+    height: 80px;
+    padding: 0;
+    text-shadow: 0 1px 1px hsla(0,0%,100%,.25),
+                 0 -1px 1px hsla(0,0%,0%,.75);
+    width: 80px;
+}
+button.power:hover,
+button.power:focus {
+    color:  #ff9a41;
+   
+}
+
+button.power:focus {
+    box-shadow: 0px 1px 1px 0 rgba(77, 85, 91, 0.35), inset 0px 1px 2px 0 #000000;
+}
+
+
+button.power:active {
+    box-shadow: 0px 1px 1px 0 rgba(77, 85, 91, 0.35), inset 0px 1px 2px 0 #000000;
+    line-height: 86px;
+    text-shadow: 0 0 20px hsla(240,75%,75%,.5),{
+}
