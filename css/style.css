@@ -14,7 +14,7 @@ background: #25292e;
 
 button {
     left: 50%;
-    margin: -40px;
+    margin: -90px;
     position: absolute;
     top: 50%;
 }
@@ -22,18 +22,19 @@ button {
 
 .power {
     background:  #2a3035;
-    border-radius: 80px;
+    border-radius: 180px;
     box-shadow:  0px 5px 10px 0 rgba(0, 0, 0, 0.75), inset 0px 2px 5px 0 rgba(54, 66, 76, 0.75);
     border: solid 1px #121314;
   background-blend-mode: soft-light, ;
     color: #1d2226;
     cursor: pointer;
-    font: normal 55px/85px sans-serif;
-    height: 80px;
+    font: normal 60px/85px sans-serif;
+    height: 180px;
+    width: 180px;
     padding: 0;
     text-shadow: 0 1px 1px hsla(0,0%,100%,.25),
                  0 -1px 1px hsla(0,0%,0%,.75);
-    width: 80px;
+    
     font-weight: ;
 }
 
@@ -55,5 +56,5 @@ button {
 .power:active {
     box-shadow: 0px 1px 1px 0 rgba(77, 85, 91, 0.35), inset 0px 1px 2px 0 #000000;
     line-height: 86px;
-    text-shadow: 0 0 20px hsla(240,75%,75%,.5),{
+    text-shadow: 0 0 20px hsla(240,75%,75%,.5);
 }
