@@ -1,60 +1,84 @@
-.icon::before{
-    font-family: "Font Awesome 5 Free";
-}
-
-.power::before{
-content: "\f011";
-display: none;
-font-weight: 900;
-}
+@import url("../reset/reset.css");
 
 body {
-background: #25292e;
+background: url(../img/Background.jpg) no-repeat;
+background-size: cover;
 }
 
 button {
     left: 50%;
-    margin: -90px;
+    margin: -120px;
     position: absolute;
     top: 50%;
 }
 
 
 .power {
-    background:  #2a3035;
-    border-radius: 180px;
-    box-shadow:  0px 5px 10px 0 rgba(0, 0, 0, 0.75), inset 0px 2px 5px 0 rgba(54, 66, 76, 0.75);
-    border: solid 1px #121314;
-  background-blend-mode: soft-light, ;
-    color: #1d2226;
-    cursor: pointer;
-    font: normal 60px/85px sans-serif;
-    height: 180px;
-    width: 180px;
-    padding: 0;
-    text-shadow: 0 1px 1px hsla(0,0%,100%,.25),
-                 0 -1px 1px hsla(0,0%,0%,.75);
-    
-    font-weight: ;
+  background:  #2a3035;
+  border-radius: 240px;
+  box-shadow:  0px 5px 10px 0 rgba(0, 0, 0, 0.75), 
+    inset 0px 18px 20px 0 rgba(116, 128, 138, 0.185), 
+    inset 0px 10px 10px 0px rgba(163, 174, 184, 0.308),
+    inset 0px 10px 5px 0px rgba(163, 174, 184, 0.308),
+    inset 0px 0px 20px 0 rgba(0, 0, 0, 0.39),
+    inset 0px 0px 20px 0 rgba(0, 0, 0, 0.39),
+    inset 0px 0px 10px 0 rgb(0, 0, 0),
+    inset 0px 0px 10px 0 rgb(0, 0, 0),
+    inset 0px 0px 10px 0 rgb(0, 0, 0);
+  background-blend-mode: soft-light ;
+  font-family: "FontAwesome";
+  text-shadow: 0px 2px 6px rgba(8, 8, 8, 0.788) ;
+  color: #1d2226;
+  cursor: pointer;
+  font-size: 75px;
+  height: 240px;
+  width: 240px;
+  padding: 0;
+  transition: color 2s;
 }
 
 .power:focus {
-    color:  #ff9a41;
-    background-blend-mode: soft-light, ;
-  background-color: #23292e;
+  font-family: "FontAwesome";
+  text-shadow: 0px 5px 6px rgba(8, 8, 8, 0.863) ;
+  color:  #ff9a41;
+  background-color: #2a3035;
+  box-shadow: 0px 3px 4px 0 rgba(77, 85, 91, 0.35), 
+  inset 0px 1px 5px 0 #0a0b0c,
+  inset 0px 10px 10px 0 #030303,
+  inset 0px 15px 15px 0 #191d20ca,
+  inset 0px 25px 25px 0 #191d20ca,
+  inset 0px 0px 90px 0 #14181b,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #ff9a41;
 }
 
 .power:hover{
     color:  #ff9a41;
+    transition: 0.2s;
 }
-
-.power:focus {
-    box-shadow: 0px 1px 1px 0 rgba(77, 85, 91, 0.35), inset 0px 1px 2px 0 #000000;
-}
-
 
 .power:active {
-    box-shadow: 0px 1px 1px 0 rgba(77, 85, 91, 0.35), inset 0px 1px 2px 0 #000000;
-    line-height: 86px;
-    text-shadow: 0 0 20px hsla(240,75%,75%,.5);
+  font-family: "FontAwesome";
+  text-shadow: 0px 5px 6px rgba(8, 8, 8, 0.863) ;
+  background-color: #2a3035;
+  box-shadow: 0px 3px 4px 0 rgba(77, 85, 91, 0.35), 
+  inset 0px 1px 5px 0 #0a0b0c,
+  inset 0px 10px 10px 0 #030303,
+  inset 0px 15px 15px 0 #030303,
+  inset 0px 25px 25px 0 #030303,
+  inset 0px 0px 90px 0 #14181b,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #2a3035,
+  inset 0px 0px 90px 0 #ff9a41;
 }
